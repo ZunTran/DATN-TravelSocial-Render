@@ -51,4 +51,7 @@ Thumbs.db
 test-output
 
 
+
 .env
+.env.*
+!.env.example

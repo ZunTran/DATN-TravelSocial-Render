@@ -1,0 +1,46 @@
+{
+  "extends": "./tsconfig.base.json",
+  "compileOnSave": false,
+  "files": [],
+  "references": [
+    {
+      "path": "./shared"
+    },
+    {
+      "path": "./apps/auth-service-e2e"
+    },
+    {
+      "path": "./apps/auth-service"
+    },
+    {
+      "path": "./apps/user-service-e2e"
+    },
+    {
+      "path": "./apps/user-service"
+    },
+    {
+      "path": "./apps/social-service-e2e"
+    },
+    {
+      "path": "./apps/social-service"
+    },
+    {
+      "path": "./apps/chat-service-e2e"
+    },
+    {
+      "path": "./apps/chat-service"
+    },
+    {
+      "path": "./apps/ai-service-e2e"
+    },
+    {
+      "path": "./apps/ai-service"
+    },
+    {
+      "path": "./apps/api-gateway-e2e"
+    },
+    {
+      "path": "./apps/api-gateway"
+    }
+  ]
+}

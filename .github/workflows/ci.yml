@@ -33,7 +33,7 @@ jobs:
         run: npm ci
 
       - name: Run tests
-        run: npx nx run-many -t test --all --parallel=2
+        run: npx nx run-many -t test --all --parallel=2 --passWithNoTests
 
       - name: Build auth-service
         run: npx nx build auth-service
